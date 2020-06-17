@@ -1,5 +1,5 @@
 def reverse_each_word(phrase)
-  let flipped = []
+  flipped = []
   words = phrase.split
   words.map do |word|
     flipped << word.reverse

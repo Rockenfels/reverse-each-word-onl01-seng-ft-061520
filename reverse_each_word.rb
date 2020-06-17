@@ -4,5 +4,5 @@ def reverse_each_word(phrase)
   words.map do |word|
     flipped << word.reverse
   end
-  flipped
+  flipped.join(" ")
 end
